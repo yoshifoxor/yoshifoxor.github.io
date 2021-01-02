@@ -4,90 +4,121 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="安達 悦久 - Yoshihisa Adachi">
-  <title>yoshifoxor.github.io</title>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159988672-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-159988672-1');
-  </script>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <title>yoshifoxor - Yoshihisa Adachi</title>
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+  <link rel="stylesheet" href="css/ress.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="page-header">
-      <h1>安達 悦久  <small>Yoshihisa Adachi</small></h1>
+  <div id="header">
+    <h1 class="header-title">yoshifoxor - Yoshihisa Adachi</h1>
+  </div>
+
+  <div id="main-panel">
+    <div id="logo" class="content">
+      <img id="profile" src="img/profile.png" alt="profile">
+      <h2>安達 悦久</h2>
+      <p>1993年 岡山県瀬戸内市生まれ。</p>
     </div>
-    <div class="row">
-      <div class="col-xs-6 col-md-3">
-        <img class="thumbnail" src="26049357.png" alt="Yoshihisa Adachi">
+
+    <div id="sidebar">
+      <div id="upper">
+        <div class="content">
+          <h1>ハンドルネーム</h1>
+          <p>yoshifoxor</p>
+          <h3>趣味</h3>
+          <p>プログラミング、読書</p>
+          <h1>得意なこと</h1>
+          <ul>
+            <li>JavaScript / Javaを用いたフロントアプリ開発</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="lower">
+        <div class="content">
+          <h1>SNS</h1>
+          <div class="sns">
+            <a href="https://github.com/yoshifoxor"><img height="32" width="32" src="svg/github.svg"></a>
+            <a href="https://twitter.com/akanekwon28"><img height="32" width="32" src="svg/twitter.svg"></a>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- <h3>ハンドルネーム</h3>
-    <p>yoshifoxor</p> -->
-    <h3>出身地</h3>
-    <p>岡山県瀬戸内市</p>
-    <h3>居住地</h3>
-    <p>京都府京都市</p>
-    <h3>趣味</h3>
-    <p>プログラミング、読書</p>
-    <h3>得意なこと</h3>
-    <ul>
-      <li>JavaScript/Javaを利用したフロント/クライアントアプリ開発</li>
-    </ul>
+  </div>
 
-    <h3>SNS</h3>
-    <ul>
-      <!-- <li><a href="https://twitter.com/akanekwon28">Twitter</a></li> -->
-      <li><a href="https://github.com/yoshifoxor">GitHub</a></li>
-      <li><a href="https://www.facebook.com/yoshihisa.adachi.02">Facebook</a></li>
-    </ul>
+  <div id="main">
+    <div class="content">
+      <hr>
 
-    <h3>主に学習しているプログラミング言語</h3>
-    <ul>
-      <li>Java (Swing, JavaFX, Java EE)</li>
-      <li>JavaScript (Node.js, jQuery)</li>
-      <li>PHP</li>
-    </ul>
-    <h3>利用したことのあるデータストア</h3>
-    <ul>
-      <li>MySQL</li>
-      <li>PostgreSQL</li>
-    </ul>
-    <h3>お気に入りの開発環境</h3>
-    <ul>
-      <li>Visual Studio Code</li>
-      <li>Eclipse</li>
-    </ul>
+      <h1>趣味</h1>
+      <h2>趣味開発プロダクト</h2>
+      <ul>
+        <li><a href="https://github.com/yoshifoxor/countrain">電車の出発時刻をカウントダウンするWebアプリ</a></li>
+      </ul>
 
-    <h3>経歴</h3>
-    <div class="panel panel-default">
-      <table class="table">
-        <tr>
-          <td>京都コンピュータ学院 メディア情報学科</td>
-          <td>2016年4月 ～ 2019年3月</td>
-        </tr>
-        <tr>
-          <td>京都コンピュータ学院 科目等履修生</td>
-          <td>2015年10月 ～ 2016年3月</td>
-        </tr>
-        <tr>
-          <td>近畿大学 工学部 電子情報工学科</td>
-          <td>2011年4月 ～ 2015年9月</td>
-        </tr>
-        <tr>
-          <td>岡山県立瀬戸高等学校 </td>
-          <td>2008年4月 ～ 2011年3月</td>
-        </tr>
+      <hr>
+
+      <h2>よく使う開発環境</h2>
+      <ul>
+        <li>Visual Studio Code</li>
+        <li>Vim</li>
+      </ul>
+
+      <h2>主に学習しているプログラミング言語</h2>
+      <ul>
+        <li>JavaScript (Node.js, React)</li>
+        <li>Java (Swing, JavaFX, Java EE)</li>
+        <li>PHP</li>
+      </ul>
+
+      <h2>利用したことのあるデータストア</h2>
+      <ul>
+        <li>MySQL</li>
+        <li>PostgreSQL</li>
+      </ul>
+
+      <hr>
+
+      <h1>経歴</h1>
+      <h2>学歴</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>所属</th>
+            <th>期間</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="txt">京都コンピュータ学院 メディア情報学科</td>
+            <td class="txtnw">2016年4月 ～ 2019年3月</td>
+          </tr>
+          <tr>
+            <td class="txt">京都コンピュータ学院 科目等履修生</td>
+            <td class="txtnw">2015年10月 ～ 2016年3月</td>
+          </tr>
+          <tr>
+            <td class="txt">近畿大学 工学部 電子情報工学科</td>
+            <td class="txtnw">2011年4月 ～ 2015年9月</td>
+          </tr>
+          <tr>
+            <td class="txt">岡山県立瀬戸高等学校 </td>
+            <td class="txtnw">2008年4月 ～ 2011年3月</td>
+          </tr>
+        </tbody>
       </table>
+
+      <h2>資格</h2>
+      <ul>
+        <li>HTML5プロフェッショナル認定試験</li>
+      </ul>
+
+      <hr>
+
+      <div id="copyright">
+        <p>© 2020 Yoshihisa Adachi</p>
+      </div>
     </div>
   </div>
 </body>

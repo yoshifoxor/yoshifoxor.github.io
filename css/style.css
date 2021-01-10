@@ -142,8 +142,12 @@ div.sns > a {
   margin: 0;
 }
 
-#header > h1 {
-  margin: 10px 40px 40px 40px;
+#header-title {
+  font-size: 30px;
+  float: left;
+  margin: 12px 40px 40px 20px;
+  color: #f7f7ff;
+  text-shadow: 1px 1px 1px #434041;
   white-space: nowrap;
 }
 
@@ -153,11 +157,6 @@ div.sns > a {
   padding: 10px;
   margin-top: 40px;
   box-shadow: 2px 2px 4px gray;
-}
-
-#frog {
-  margin: 20px;
-  text-align: center;
 }
 
 .img-frame {
@@ -172,13 +171,6 @@ div.sns > a {
 }
 
 @media screen and (min-width: 330px) {
-  #header-title {
-    font-size: 20px;
-    float: left;
-    margin: 20px 40px 40px 40px;
-    color: #f7f7ff;
-    text-shadow: 1px 1px 1px #434041;
-  }
   #main_panel {
     width: 100%;
     height: auto;
@@ -219,13 +211,6 @@ div.sns > a {
 }
 
 @media screen and (min-width: 1000px) {
-  #header-title {
-    font-size: 30px;
-    float: left;
-    margin: 12px 40px 40px 40px;
-    color: #f7f7ff;
-    text-shadow: 1px 1px 1px #434041;
-  }
   #main-panel {
     width: 960px;
     height: auto;

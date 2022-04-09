@@ -3,7 +3,7 @@
 body {
   background-color: #f7f7ff;
   color: #434041;
-  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Meiryo, sans-serif;
+  font-family: 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Arial, Meiryo, sans-serif;
   line-height: 1.5;
 }
 
@@ -28,10 +28,10 @@ hr {
   text-align: center;
 }
 
-hr:after {
+hr::after {
   display: inline-block;
   position: relative;
-  top: -13px;
+  /* top: -10px; */
   padding: 0 3px;
   background: #f0f0ff;
   color: #8c8c8c;
@@ -56,23 +56,15 @@ table {
   box-shadow: 0 0 15px -6px #434041;
 }
 
-table tr {
-  background-color: #f7f7ff;
-}
-
-table tbody tr:hover {
-  background-color: #f7f7ff;
-}
-
 table th,
 table td {
-  padding: 0.35em 1em;
+  padding: 0.35rem 1rem;
   border-bottom: 1px solid #f7f7ff;
 }
 
 table thead th {
-  font-size: 0.85em;
-  padding: 1em;
+  font-size: 1rem;
+  padding: 0.5em;
 }
 
 table thead tr {
@@ -83,24 +75,17 @@ table thead tr {
 
 table tbody th {
   text-align: left;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .txt {
   text-align: left;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .txtnw {
-  text-align: left;
-  font-size: 1em;
-  white-space: nowrap;
-}
-
-@media screen and (max-width: 600px) {
-  table {
-    width: 100%;
-  }
+  text-align: right;
+  font-size: 1rem;
 }
 
 a:link {
@@ -129,7 +114,7 @@ a:active {
   padding: 5px 0px 0px 0px;
 }
 
-div.sns > a {
+div.sns>a {
   margin: 5px 5px 5px 5px;
   padding: 1px;
 }
@@ -172,7 +157,7 @@ div.sns > a {
 }
 
 @media screen and (min-width: 330px) {
-  #main_panel {
+  #main-panel {
     width: 100%;
     height: auto;
     margin: 0px auto;
@@ -206,8 +191,8 @@ div.sns > a {
     clear: both;
     width: 100%;
     height: 250px;
-    padding-top: 40px;
     margin: 0 auto;
+    padding-top: 40px;
   }
 }
 
@@ -245,7 +230,7 @@ div.sns > a {
   #main {
     clear: both;
     width: 960px;
-    padding: 10px 24px;
+    padding: 10px 30px;
     margin: 0 auto;
   }
 }
